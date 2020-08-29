@@ -4,6 +4,8 @@ SELECT COLUMN_NAME, DATA_TYPE FROM INFORMATION_SCHEMA.COLUMN WHERE TABLE_SCHEMA 
 
 ## Part 2: Test it with SQL
 
+SELECT * FROM techjobs.employer WHere location = "St. Louis City";
+
 ## Part 3: Test it with SQL
 
 ## Part 4: Test it with SQL

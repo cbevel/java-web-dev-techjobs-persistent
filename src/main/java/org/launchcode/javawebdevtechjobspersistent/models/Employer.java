@@ -7,7 +7,6 @@ import javax.validation.constraints.Size;
 @Entity
 public class Employer extends AbstractEntity {
 
-
     @NotBlank
     @Size(min = 3, max = 50, message = "Please enter a location")
     private String location;
